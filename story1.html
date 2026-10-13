@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Boy with the Starlight Sword</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .reading-container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 25px;
+            color: #4f5da8;
+            text-decoration: none;
+        }
+
+        .book-cover {
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #4358b8, #8b7acb);
+    color: white;
+    border-radius: 18px;
+    padding: 45px 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+        .book-cover .sword-icon {
+            font-size: 65px;
+            margin-bottom: 15px;
+        }
+
+        .book-cover h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(24px, 4vw, 36px);
+    margin: 15px 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    line-height: 1.3;
+}
+
+        .book-cover p {
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        .story-content {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            line-height: 1.9;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .chapter-label {
+            color: #635bca;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .story-content h2 {
+            font-family: Georgia, serif;
+            text-align: center;
+            margin: 12px 0 25px;
+        }
+
+        .story-content p {
+            margin-bottom: 18px;
+            color: #444;
+            text-indent: 30px;
+        }
+
+        .story-content .opening {
+            text-indent: 0;
+        }
+
+        .story-content .opening::first-letter {
+            font-size: 36px;
+            font-weight: bold;
+            color: #635bca;
+        }
+
+        .story-navigation {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .story-button {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .primary-button {
+            background: #635bca;
+            color: white;
+        }
+
+        .secondary-button {
+            background: white;
+            color: #635bca;
+            border: 1px solid #635bca;
+        }
+
+        .story-button:hover {
+            opacity: 0.85;
+        }
+
+        @media (max-width: 600px) {
+            .reading-container {
+                width: 92%;
+            }
+
+            .book-cover h1 {
+                font-size: 27px;
+            }
+
+            .story-content {
+                padding: 25px 20px;
+            }
+
+            .story-navigation {
+                flex-direction: column;
+            }
+
+            .story-button {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <span>▶</span>
+            My Storybook
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html">Story Library</a>
+            <a href="index.html#about">About</a>
+        </div>
+
+        <div class="stories-count">
+            🌙 10 Stories
+        </div>
+
+    </nav>
+
+    <!-- STORY READING PAGE -->
+    <main class="reading-container">
+
+        <a href="index.html" class="back-link">
+            ← Back to Story Library
+        </a>
+
+        <!-- BOOK COVER -->
+        <section class="book-cover">
+
+            <p>MY STORYBOOK COLLECTION · NO. 01</p>
+
+            <div class="sword-icon">⚔️</div>
+
+            <h1>The Boy with the Starlight Sword</h1>
+
+            <p>A FANTASY ADVENTURE</p>
+
+        </section>
+
+        <!-- STORY CONTENT -->
+        <article class="story-content">
+
+            <div class="chapter-label">CHAPTER ONE</div>
+
+            <h2>The Sword in the Forest</h2>
+
+            <p class="opening">
+                In a quiet village surrounded by tall mountains, there
+                lived a boy named Leo. Every night, he looked at the
+                stars and dreamed of becoming a great hero. He was not
+                the strongest boy in the village, but he had a brave
+                heart and a curious mind.
+            </p>
+
+            <p>
+                One evening, a strange blue light appeared deep inside
+                the forest. The villagers were afraid to approach it,
+                but Leo felt that something important was waiting
+                for him. Carrying a small lantern, he followed the
+                glowing trail between the ancient trees.
+            </p>
+
+            <p>
+                At the heart of the forest, Leo discovered a stone
+                pedestal covered in silver runes. Resting on top was
+                a beautiful sword that shimmered like the night sky.
+                Tiny stars moved across its blade as if the universe
+                itself lived inside it.
+            </p>
+
+            <p>
+                The moment Leo touched the sword, a gentle voice
+                echoed through the forest.
+            </p>
+
+            <p>
+                "The light of this sword awakens only for someone
+                who protects others. Great adventures await you,
+                but remember that true courage is not about being
+                fearless. It is about doing what is right, even
+                when you feel afraid."
+            </p>
+
+            <p>
+                Suddenly, the sword glowed brighter. Far beyond the
+                mountains, a dark cloud gathered over the kingdom.
+                Leo knew his ordinary life had come to an end.
+                He lifted the starlight sword and started his journey
+                toward the unknown.
+            </p>
+
+            <p>
+                And so, beneath a sky filled with shining stars,
+                the adventure of Leo, the boy with the starlight
+                sword, began.
+            </p>
+
+            <div class="story-navigation">
+
+                <a href="index.html"
+                   class="story-button secondary-button">
+                    ← Story Library
+                </a>
+
+                <button
+                    class="story-button primary-button"
+                    onclick="alert('You have finished Chapter One! More chapters coming soon.')">
+                    Finish Chapter ✓
+                </button>
+
+            </div>
+
+        </article>
+
+    </main>
+
+</body>
+</html>
+```
